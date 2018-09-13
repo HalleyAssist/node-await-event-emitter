@@ -10,7 +10,6 @@
     "index.es5.js"
   ],
   "scripts": {
-    "build": "rollup -c",
     "dev": "npm run build -- --watch",
     "test": "jest --coverage",
     "prepare": "npm run build"
