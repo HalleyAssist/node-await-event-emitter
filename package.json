@@ -11,8 +11,7 @@
   ],
   "scripts": {
     "dev": "npm run build -- --watch",
-    "test": "jest --coverage",
-    "prepare": "npm run build"
+    "test": "jest --coverage"
   },
   "keywords": [
     "imcuttle",
