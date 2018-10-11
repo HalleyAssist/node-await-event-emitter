@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "dev": "npm run build -- --watch",
-    "test": "jest --coverage"
+    "test": "./node_modules/.bin/jest --coverage"
   },
   "keywords": [
     "imcuttle",
@@ -39,7 +39,8 @@
       "json",
       "text",
       "lcov"
-    ]
+    ],
+    "testURL": "http://localhost/"
   },
   "repository": {
     "type": "git",
